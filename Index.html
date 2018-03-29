@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.css">
+  <link rel="stylesheet" href="assets/main.css">
+
+  <title>Document</title>
+</head>
+<body>
+  <nav class="nav nav__custom">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Finance</a>
+      <ul id="nav-mobile" class="tabs nav__list">
+        <li class="tab">
+          <a href="#account" class="nav__link">My Accounts</a>
+        </li>
+        <li class="tab">
+          <a href="#moneybox" class="nav__link">MoneyBox</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+    <div id="account" class="col s12">
+
+
+      <section class="account">
+        <h2 class="account__title">Accounts:</h2>
+      </section>
+
+
+    </div>
+    <div id="moneybox" class="col s12">
+
+      <section class="account">
+        <h2 class="account__title">My MoneyBox:</h2>
+      </section>
+
+    </div>
+
+  <footer class="page-footer footer footer_custom">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12 footer__courses">
+          <h5 class="white-text">Курс Валют:</h5>
+          <ul class="footer__courses-list">
+            <li>USD: <span id="USD">00,0000</span></li>
+            <li>EUR: <span id="EUR">00,0000</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Compiled and minified JavaScript -->
+  <script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+  <script src="assets/script.js"></script>
+  <script src="http://www.cbr-xml-daily.ru/daily_jsonp.js"></script>
+</body>
+</html>

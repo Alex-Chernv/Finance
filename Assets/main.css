@@ -1,0 +1,41 @@
+.nav__custom {
+
+  background-color: rgb(79, 30, 124)
+}
+
+.nav__list {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+
+}
+
+.nav__link {
+
+  color: #fff !important;
+
+}
+
+
+
+.footer {
+position: fixed;
+bottom: 0;
+width: 100%
+}
+
+.footer__courses {
+
+  display: flex;
+}
+
+.footer__courses-list {
+
+  margin-left: 10px;
+}
+
+.footer_custom {
+
+  background-color: rgb(79, 30, 124)
+}
+
